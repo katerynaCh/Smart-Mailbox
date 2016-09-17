@@ -1,12 +1,9 @@
-*import processing.serial.*;
-PrintWriter output;
 
 int sensorPin = 0;
 int counter=0;
 void setup()
 {
   Serial.begin(9600);
-  output=createWriter("data.txt");
 }
 void loop(){
 float sensorValueInit = analogRead(sensorPin);//read the value from the sensor
@@ -16,7 +13,6 @@ float sensorValueInit = analogRead(sensorPin);//read the value from the sensor
  if (movement>500 and counter==0)
  {
   Serial.println("opened");
-  output.println("opened");
   counter=1;  
   }
   else 
