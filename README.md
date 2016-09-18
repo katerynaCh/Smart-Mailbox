@@ -16,3 +16,6 @@ Machine vision technologies will scan the delivered item and tell you what exact
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) and [Node.js](https://en.wikipedia.org/wiki/Node.js) -  to program Arduino, data processing and server programming
 - Carton box, yellow paper and tones of tape - to show you an awesome demo
 - Our brains - to create an idea and make it possible!
+
+![alt tag](https://github.com/katerynaCh/Smart-Mailbox/blob/master/zqjm2a-ys9s.jpg)
+<img src="https://github.com/katerynaCh/Smart-Mailbox/blob/master/In0RYvTB4qY.jpg" alt="Drawing" style="width: 50px;"/>
