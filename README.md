@@ -8,11 +8,11 @@ If you answered 'yes' to at least one of the above questions, then our product w
 
 Machine vision technologies will scan the delivered item and tell you what exactly you received. Adjust your settings to be notified only on important deliveries - machine vision will keep the spam out! (machine vision is still under development)
 
-How it works: An Arduino board is placed inside your mailbox and a rotation sensor is placed on the door. As soon as your mailbox is opened and something is placed inside, the sensor will generate a signal and send it to the Arduino board, which in turn will send it to the web server using the WiFi (or GSM) Shield. Web server will notify you by SMS that something was delivered to your mailbox and will as well update the web interface information. If a camera and machine vision are applied, the image of the delivered item will be detected, processed and classified, telling you what exactly is in your mailbox and if it is spam. 
+<b>How it works:</b> An Arduino board is placed inside your mailbox and a rotation sensor is placed on the door. As soon as your mailbox is opened and something is placed inside, the sensor will generate a signal and send it to the Arduino board, which in turn will send it to the web server using the WiFi (or GSM) Shield. Web server will notify you by SMS that something was delivered to your mailbox and will as well update the web interface information. If a camera and machine vision are applied, the image of the delivered item will be detected, processed and classified, telling you what exactly is in your mailbox and if it is spam. 
 
 <h4>Technologies used:</h4>
-- Arduino - programmable electronic board and a rotation sensor. The sensor is placed on the door of the mailbox to catch the moment when the door is opened and mail is put inside
-- Twilio - cloud communications platform for building Voice & Messaging applications. We use it to send SMS to your phones and data about package to your web interface
-- C++, Python and Node.js - languages used to program Arduino, data processing and server programming
+- [Arduino](https://en.wikipedia.org/wiki/Arduino) - programmable electronic board and a rotation sensor. The sensor is placed on the door of the mailbox to catch the moment when the door is opened and mail is put inside
+- [Twilio](https://en.wikipedia.org/wiki/Twilio) - cloud communications platform for building Voice & Messaging applications. We use it to send SMS to your phones and data about package to your web interface
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B), [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) and [Node.js](https://en.wikipedia.org/wiki/Node.js) -  to program Arduino, data processing and server programming
 - Carton box, yellow paper and tones of tape - to show you an awesome demo
 - Our brains - to create an idea and make it possible!
